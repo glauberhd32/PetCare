@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText UsuarioLogin;
     private  EditText Senha_login;
     private Button  botaoCadastrar;
+    private Button botaoLogar;
 
 
     @Override
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         UsuarioLogin = (EditText) findViewById(R.id.login_UsuarioId);
         Senha_login =(EditText)findViewById(R.id.SenhaloginId);
         botaoCadastrar =(Button)findViewById(R.id.botaoCadastraId);
+        botaoLogar = (Button)findViewById(R.id.botaoLogarId);
 
         botaoCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +30,12 @@ public class MainActivity extends AppCompatActivity {
 
                 startActivity(new Intent(MainActivity.this,CadastroActivity.class));
 
+            }
+        });
+        botaoLogar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,EscolhaProdutoActivity.class));
             }
         });
     }

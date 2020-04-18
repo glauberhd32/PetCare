@@ -12,4 +12,8 @@
     <string name="Senha_cadastro" />
     <string name="SenhaCadastro" />
     <string name="botao_cadastro">Cadastrar</string>
+    <string name="botao_Raçao">Ração</string>
+    <string name="botaoMedicamento">Medicamento</string>
+    <string name="botaoAcessorio">Acessórios</string>
+    <string name="botaoServico">Serviços</string>
 </resources>
