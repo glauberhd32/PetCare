@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PetCare</string>
+    <string name="Usuario_Login">Usuario:</string>
+    <string name="senha_Login">Senha:</string>
+    <string name="Usuario_login" />
+    <string name="Senha_Login" />
+    <string name="Cadastra_Usuario">Cadastrar</string>
+    <string name="logar_usuario">Entrar</string>
+    <string name="Cadastro_Usuario" />
+    <string name="NomePessoa" />
+    <string name="Telefone" />
+    <string name="Senha_cadastro" />
+    <string name="SenhaCadastro" />
+    <string name="botao_cadastro">Cadastrar</string>
+</resources>
