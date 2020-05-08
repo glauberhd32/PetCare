@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".CadastroActivity" />
-        <activity android:name=".EscolhaProdutoActivity"></activity>
+        <activity android:name=".EscolhaProdutoActivity" />
+        <activity android:name=".RacaoActivity" />
+        <activity android:name=".RacaoPeixeActivity"></activity>
     </application>
 
 </manifest>
