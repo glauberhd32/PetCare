@@ -18,7 +18,8 @@
         <activity android:name=".CadastroActivity" />
         <activity android:name=".EscolhaProdutoActivity" />
         <activity android:name=".RacaoActivity" />
-        <activity android:name=".RacaoPeixeActivity"></activity>
+        <activity android:name=".RacaoPeixeActivity" />
+        <activity android:name=".RacaoCachorroActivity"></activity>
     </application>
 
 </manifest>

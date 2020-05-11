@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class RacaoActivity extends AppCompatActivity {
    private  Button racaoDEPeixe;
+    private Button racaoCachorro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,12 +16,22 @@ public class RacaoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_racao);
 
         racaoDEPeixe = (Button)findViewById(R.id.botao_racao_peixe);
+        racaoCachorro = (Button)findViewById(R.id.botaoRacaoCachorro);
+
+
+
 
         racaoDEPeixe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(RacaoActivity.this,RacaoPeixeActivity.class));
 
+            }
+        });
+        racaoCachorro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(RacaoActivity.this,RacaoCachorroActivity.class));
             }
         });
     }

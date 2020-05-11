@@ -42,4 +42,26 @@
         android:layout_alignParentEnd="true"
         android:background="#a3f77f" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botao_racao_cahorroCompra"
+        android:id="@+id/botaoRacaoCachorro"
+        android:background="#a3f77f"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_alignLeft="@+id/botao_racao_peixe"
+        android:layout_alignStart="@+id/botao_racao_peixe"
+        android:layout_alignRight="@+id/botao_racao_peixe"
+        android:layout_alignEnd="@+id/botao_racao_peixe" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView4"
+        android:background="@drawable/unnamed"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/botao_racao_peixe"
+        android:layout_toStartOf="@+id/botao_racao_peixe" />
+
 </RelativeLayout>
