@@ -9,6 +9,8 @@ import android.widget.Button;
 public class RacaoActivity extends AppCompatActivity {
    private  Button racaoDEPeixe;
     private Button racaoCachorro;
+    private Button racaoGato;
+    private Button racaoPassaro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +19,8 @@ public class RacaoActivity extends AppCompatActivity {
 
         racaoDEPeixe = (Button)findViewById(R.id.botao_racao_peixe);
         racaoCachorro = (Button)findViewById(R.id.botaoRacaoCachorro);
+        racaoGato = (Button)findViewById(R.id.botaoGatoCompraid) ;
+        racaoPassaro = (Button)findViewById(R.id.botaoRacaopassaro);
 
 
 
@@ -32,6 +36,19 @@ public class RacaoActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(RacaoActivity.this,RacaoCachorroActivity.class));
+            }
+        });
+
+        racaoGato.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent(RacaoActivity.this,RacaoGatoActivity.class));
+            }
+        });
+        racaoPassaro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(RacaoActivity.this,RacaoPassaroActivity.class));
             }
         });
     }

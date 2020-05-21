@@ -19,7 +19,11 @@
         <activity android:name=".EscolhaProdutoActivity" />
         <activity android:name=".RacaoActivity" />
         <activity android:name=".RacaoPeixeActivity" />
-        <activity android:name=".RacaoCachorroActivity"></activity>
+        <activity android:name=".RacaoCachorroActivity" />
+        <activity android:name=".RacaoGatoActivity" />
+        <activity android:name=".RacaoPassaroActivity" />
+        <activity android:name=".MedicamentoProdutosActivity" />
+        <activity android:name=".VermifugosActivity"></activity>
     </application>
 
 </manifest>

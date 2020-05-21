@@ -8,6 +8,7 @@ import android.widget.Button;
 
 public class EscolhaProdutoActivity extends AppCompatActivity {
     private Button botaoRacao;
+    private Button botaoMedicamento;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,11 +16,18 @@ public class EscolhaProdutoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_escolha_produto);
 
         botaoRacao = (Button)findViewById(R.id.botaoRacaId);
+        botaoMedicamento =(Button)findViewById(R.id.botaoMedicamentoId);
 
         botaoRacao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(EscolhaProdutoActivity.this,RacaoActivity.class));
+            }
+        });
+        botaoMedicamento.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(EscolhaProdutoActivity.this,MedicamentoProdutosActivity.class));
             }
         });
     }
