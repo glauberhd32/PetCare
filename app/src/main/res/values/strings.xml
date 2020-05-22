@@ -44,4 +44,6 @@
     <string name="Brinquedos" />
     <string name="BrinquedosPet">Brinquedos</string>
     <string name="Coleira">Coleira</string>
+    <string name="AdicionarCarrinhoComedouro">Adicionar no carrinho</string>
+    <string name="AdicionarCarrinhoBebedouro">Adicionar no carrinho</string>
 </resources>
