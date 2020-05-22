@@ -36,7 +36,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button4"
+        android:id="@+id/botaoBrinquedoId"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -51,10 +51,10 @@
         android:text="@string/Coleira"
         android:id="@+id/button5"
         android:layout_marginTop="69dp"
-        android:layout_below="@+id/button4"
+        android:layout_below="@+id/botaoBrinquedoId"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/button4"
-        android:layout_alignEnd="@+id/button4"
+        android:layout_alignRight="@+id/botaoBrinquedoId"
+        android:layout_alignEnd="@+id/botaoBrinquedoId"
         android:background="#a3f77f" />
 </RelativeLayout>
