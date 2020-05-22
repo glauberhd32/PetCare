@@ -23,7 +23,8 @@
         <activity android:name=".RacaoGatoActivity" />
         <activity android:name=".RacaoPassaroActivity" />
         <activity android:name=".MedicamentoProdutosActivity" />
-        <activity android:name=".VermifugosActivity"></activity>
+        <activity android:name=".VermifugosActivity" />
+        <activity android:name=".PulgaCarrapatoActivity"></activity>
     </application>
 
 </manifest>
