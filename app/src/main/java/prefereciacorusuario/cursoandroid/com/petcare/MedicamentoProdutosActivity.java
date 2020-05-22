@@ -9,6 +9,8 @@ import android.widget.Button;
 public class MedicamentoProdutosActivity extends AppCompatActivity {
     private Button botaoVermifugos;
     private Button botaoAnti_pulga;
+    private  Button botaoAntibiotico;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +19,7 @@ public class MedicamentoProdutosActivity extends AppCompatActivity {
 
         botaoVermifugos = (Button)findViewById(R.id.botaoVermifugos);
         botaoAnti_pulga = (Button)findViewById(R.id.botaoCarrapatoEpulga);
-
+        botaoAntibiotico =(Button)findViewById(R.id.botaoAntibiotico);
 
         botaoVermifugos.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,6 +33,13 @@ public class MedicamentoProdutosActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent( MedicamentoProdutosActivity.this,PulgaCarrapatoActivity.class));
+            }
+        });
+        botaoAntibiotico.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MedicamentoProdutosActivity.this,AntibioticoActivity.class));
+                
             }
         });
     }
